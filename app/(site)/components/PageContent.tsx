@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { Song } from "@/types";
 import useOnPlay from "@/hooks/useOnPlay";
@@ -21,7 +21,7 @@ const PageContent: React.FC<PageContentProps> = ({
     )
   }
 
- return ( 
+  return ( 
     <div 
       className="
         grid 

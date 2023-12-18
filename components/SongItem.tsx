@@ -50,7 +50,7 @@ const SongItem: React.FC<SongItemProps> = ({
       >
         <Image
           className="object-cover"
-          src={imagePath || '/images/liked.png'}
+          src={imagePath || '/images/music-placeholder.png'}
           fill
           alt="Image"
         />
@@ -68,7 +68,7 @@ const SongItem: React.FC<SongItemProps> = ({
             truncate
           "
         >
-          {data.author}
+          By {data.author}
         </p>
       </div>
       <div 
